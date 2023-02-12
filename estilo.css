@@ -1,0 +1,141 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+    background-color:RGB(0, 34, 49) ;
+}
+
+.titulo{
+    text-align-last: center;
+    font-size: 800%;
+    font-family: 'DM Sans', sans-serif;
+    color: RGB(200, 188, 234);
+    text-align: center;
+    border: RGB (255, 0, 83);
+    margin-bottom: 10;
+    padding: 10;
+
+}
+
+/**RGB(255, 0, 83) color rosa*/
+/**color gris RGB(200, 188, 234)*/
+p{
+    color: RGB(200, 188, 234);
+    text-decoration-color: sandybrown;
+}
+
+.sub{
+    
+    color: RGB(255, 0, 83)
+    
+    
+
+}
+
+#lista{
+
+    color: rgb(200, 188, 234);
+    text-align: right;
+}
+
+#info{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 400%;
+    background-color: rgb(255, 0, 83);
+    border: solid;
+    color: rgb(255,255,255);
+    
+
+}
+#ima{
+    height: 199;
+    width: auto;
+}
+
+#accordion-resizer {
+    font-family: 'DM Sans', sans-serif;
+    border: none;
+    font-size:150% ;
+    padding: 100px;
+    width: auto;
+    height: 500px;
+    background-color: rgb(0, 34, 49);
+  }
+
+ 
+.material-symbols-outlined {
+font-size: 90%;
+  font-variation-settings:
+  'FILL' 40,
+  'wght' 400,
+  'GRAD' 40,
+  'opsz' 48
+  
+}
+
+hr{
+    color: rgb(255, 0, 83);
+}
+
+#sub2{
+    border: solid white;
+}
+
+.contenedor{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#agregado{
+   color: rgb(200, 188, 234);
+   font-size: 30px;
+   margin-left: 100px;
+   text-align: inherit;
+   
+}
+p{
+  overflow-wrap: break-word;
+}
+
+.ui-widget-content{
+  margin-left: -95px;
+  margin-right: -105px;
+}
+#logo{
+  border: solid; color: cornsilk;
+
+}
+
+@media only screen and (max-width: 600px){
+  body {
+   background-color: black;
+  }
+  .titulo{
+    font-size: xx-large;
+    text-align: inherit;
+
+  }
+  
+  .contenedor{
+    display: block;
+    text-align: center;
+    
+  }
+  #agregado{
+    font-size: 118%;
+    text-align: center;
+  }
+  .logo{   
+    border-radius: 50% ;
+  }
+  #accordion-resizer {
+
+    background-color: black;
+  }
+
+}
